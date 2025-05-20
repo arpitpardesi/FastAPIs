@@ -1,0 +1,45 @@
+{
+  'coord': {
+    'lon': 75.7687,
+    'lat': 22.5587
+  },
+  'weather': [
+    {
+      'id': 721,
+      'main': 'Haze',
+      'description': 'haze',
+      'icon': '50n'
+    }
+  ],
+  'base': 'stations',
+  'main': {
+    'temp': 23.92,
+    'feels_like': 24.4,
+    'temp_min': 23.92,
+    'temp_max': 23.92,
+    'pressure': 1008,
+    'humidity': 78,
+    'sea_level': 1008,
+    'grnd_level': 943
+  },
+  'visibility': 5000,
+  'wind': {
+    'speed': 1.54,
+    'deg': 270
+  },
+  'clouds': {
+    'all': 20
+  },
+  'dt': 1746818301,
+  'sys': {
+    'type': 1,
+    'id': 9067,
+    'country': 'IN',
+    'sunrise': 1746836354,
+    'sunset': 1746883649
+  },
+  'timezone': 19800,
+  'id': 1269743,
+  'name': 'Mhow',
+  'cod': 200
+}
