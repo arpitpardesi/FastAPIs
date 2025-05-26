@@ -202,6 +202,15 @@ async def validate(dep: dependency = Depends(dependency)):
 async def user():
    return {"message": "You are eligible"}
 
+from flask import Flask
+flask_app = Flask(__name__)
+@flask_app.route("/")
+def index_flask():
+   return "Hello World from Flask!"
+
+from fastapi.middleware.wsgi import WSGIMiddleware
+app.mount("/flask", WSGIMiddleware(flask_app))
+
 if __name__ == "__main__":
     uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
 
