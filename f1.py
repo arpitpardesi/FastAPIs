@@ -170,11 +170,13 @@ async def get_percent(s1:student):
 class supplier(BaseModel):
    supplierID:int
    supplierName:str
+
 class product(BaseModel):
    productID:int
    prodname:str
    price:int
    supp:supplier
+   
 class customer(BaseModel):
    custID:int
    custname:str
